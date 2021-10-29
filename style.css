@@ -7,14 +7,14 @@
 }
 
 header {
-    background-color: rgb(247, 130, 110);
+    background-color: rgba(236, 110, 105, 0.932);
     padding: 20px;
     color: rgb(192, 45, 45);
 }
 
 main {
     padding: 20px;
-    color: black;
+    color: rgb(124, 23, 23);
     font-size: 20px;
 }
 
@@ -33,6 +33,11 @@ main {
     border-radius: 50%;
 }
 
+p {
+    padding: 0px 20px;
+    font-size: 24px;
+}
+
 @media (min-width: 1024px) {
     
     #container {
@@ -47,4 +52,10 @@ main {
         object-fit: cover;
         padding: 20px;
     }
+
+    p {
+        padding: 0px 200px;
+        font-size: 24px;
+    }
+    
 }
